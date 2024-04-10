@@ -1,21 +1,25 @@
 import axios from "axios";
 import { useState } from "react";
 
+
+// May need to lift the state later to enable set Access in an admin panel
 function NewUser() {
 
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
-    const [access, setAccess] = useState("");
+    const [access, setAccess] = useState("User");
 
     const handleSubmit = (event) => {
         event.preventDefault(); 
-    axios.post("http://localhost:3030/users", {username, password, access})
+
+    axios.post("http://localhost:3031/users", {username, password, access})
     .then(response => {
 
         setUsername("");
         setPassword("");
-        setAccess("");
+        
     })
+    .catch(error => console.log(error))
     
     }
 
@@ -23,6 +27,7 @@ function NewUser() {
     return (<div><h1>Register new user here!</h1>
         <form onSubmit={handleSubmit} >
 
+{/* Need to input password criteria here! */}
             <label>Username:</label>
             <input id="setusername" value={username} type="text" onChange={e=>setUsername(e.target.value)}></input>
             <br />

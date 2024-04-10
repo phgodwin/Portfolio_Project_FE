@@ -1,6 +1,28 @@
 {
-    "users": [
-      { "id": 1, "username": "pgodwin", "password": "password1", "access": "admin" },
-      { "id": 2, "username": "guestuser", "password": "password1", "access": "user" }
-    ]
-  }
+  "users": [
+    {
+      "id": 1,
+      "username": "pgodwin",
+      "password": "password1",
+      "access": "admin"
+    },
+    {
+      "id": 2,
+      "username": "guestuser",
+      "password": "password1",
+      "access": "user"
+    },
+    {
+      "username": "adele",
+      "password": "pass1",
+      "access": "",
+      "id": 3
+    },
+    {
+      "username": "nathan",
+      "password": "password",
+      "access": "User",
+      "id": 4
+    }
+  ]
+}
