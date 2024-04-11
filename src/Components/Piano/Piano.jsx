@@ -2,17 +2,17 @@ import c1 from "../../../src/key01.mp3";
 
 function Piano() {
 
-           function playKey(id) {
-            
-            const key = document.getElementById(id);
-            key.play();
-                            
+    function playKey(id) {
+
+        const key = document.getElementById(id);
+        key.play();
+
     };
 
 
     return (
 
-    // keys now playing sound - need to download/record all sounds to use for the remaining keys.
+        // keys now playing sound - need to download/record all sounds to use for the remaining keys.
         <div className="piano">
             <button className="whitekey" onClick={() => playKey("c1")}>C</button>
             <audio id="c1" src={c1} />
