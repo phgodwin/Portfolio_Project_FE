@@ -41,7 +41,19 @@
   }
 }
 
+#navbar {
+  background-color: #157055;
+  padding: 5px 0px 5px 0px;
+}
 
+#nav {
+  display: inline-flex;
+  font-family: monospace;
+  font-size: xx-large;
+  margin: 2px 15px 2px 15px;
+  color: white;
+  border: 1px #157055b2 solid;
+}
 
 .piano {
 display: flex;

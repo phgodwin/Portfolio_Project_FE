@@ -11,9 +11,9 @@ function App() {
 
     <Router>
 
-      <nav>
-        <Link to='/'>Home</Link>
-        <Link to='/TestPage'>Test</Link>
+      <nav id="navbar">
+        <Link id="nav" to='/'>Home</Link>
+        <Link id="nav" to='/TestPage'>Test</Link>
       </nav>
       <Routes>
         <Route path='/' element={<HomePage />} />
