@@ -1,13 +1,9 @@
 function AboutPaige() {
     return (
-        <main id="container">
-        <p>Hi I'm Paige,</p>
-        <section id="animation">
-          <div id="first"><div>Full stack engineer in training!</div></div>
-          <div id="second"><div>Coffeeholic!</div></div>
-          <div id="third"><div>Spotify's #1 fan!</div></div>
-        </section>
-      </main>
+       <div style={{width: "60%", margin: "auto", marginTop: "5%", paddingBlock: "50px"}} id= "container">
+        <h1>ABout me</h1>
+        
+       </div>
     );
 }
 
