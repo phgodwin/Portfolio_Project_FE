@@ -3,8 +3,8 @@
 }
 
 body {
-background-color: #98b8aead;
-  
+  background-color: #98b8aead;
+
 }
 
 
@@ -61,12 +61,12 @@ background-color: #98b8aead;
   margin: 2px 15px 2px 15px;
   color: white;
   border: 1px #157055b2 solid;
-   text-decoration: none;
+  text-decoration: none;
 }
 
 #nav:hover {
-color: #ffffffb4;
-text-decoration: underline;
+  color: #ffffffb4;
+  text-decoration: underline;
 
 }
 
@@ -103,20 +103,59 @@ text-decoration: underline;
 
 }
 
+
 #container {
 
   background-color: white;
   font-family: monospace;
   font-weight: 900;
   font-size: 2.26rem;
-  text-transform: uppercase;;
+  text-transform: uppercase;
   text-align: center;
   border-radius: 25px;
   border-color: #157055;
   border-width: 10px;
   border-style: groove;
+
+}
+
+#containertwo {
+  background-color: white;
+  font-family: monospace;
+  border-radius: 25px;
+  border-color: #157055;
+  border-width: 10px;
+  border-style: groove;
+  margin: auto;
+  max-width: fit-content;
+  margin-top: 10px;
+  padding: 15px;
   
 }
+
+#containerjourney {
+  background-color: white;
+  font-family: monospace;
+  border-radius: 25px;
+  border-color: #157055;
+  border-width: 10px;
+  border-style: groove;
+  width: 50%;
+  padding: 10px;
+  margin-top: 10px;
+
+
+}
+
+/* #containerright {
+  background-color: white;
+  font-family: monospace;
+  border-radius: 25px;
+  border-color: #157055;
+  border-width: 10px;
+  border-style: groove;
+ 
+} */
 
 #animation {
   height: 50px;
@@ -135,6 +174,43 @@ text-decoration: underline;
   animation: text-animation 8s infinite;
 }
 
+#arrow {
+  padding-bottom: 150px;
+}
+
+#button {
+  margin: 10px;
+  padding: 10px;
+  font-family: monospace;
+  font-size: larger;
+  font-style: italic;
+  background-color: #157055;
+  color: white;
+}
+
+#submitbutton {
+  border-color: #157055;
+  border-width: 2px;
+  border-style: groove;
+  background-color: #157055;
+  margin: 2px;
+  color: white;
+}
+
+#notepad {
+  background-image: url("/public/notepad.jpg");
+  background-size: "cover";
+    background-repeat: no-repeat;
+    background-size: 700px 900px;
+}
+
+#delete {
+  background-color: red;
+}
+
+#edit {
+  background-color: orange;
+}
 
 @keyframes text-animation {
   0% {

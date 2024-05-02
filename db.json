@@ -24,5 +24,31 @@
       "access": "User",
       "id": 4
     }
+  ],
+  "songs": [
+    {
+      "songName": "Britney Spears - Hit Me Baby One More Time",
+      "id": 2
+    },
+    {
+      "songName": "James Arthur - Hallelujah",
+      "id": 3
+    },
+    {
+      "songName": "Merry Christmas",
+      "id": 4
+    },
+    {
+      "songName": "Jingle Bells",
+      "id": 5
+    },
+    {
+      "songName": "Chopsticks",
+      "id": 6
+    },
+    {
+      "songName": "Survivor - Eye of The Tiger",
+      "id": 7
+    }
   ]
 }

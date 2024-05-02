@@ -1,5 +1,5 @@
 import Login from "../Login";
-import emoji from 'react-easy-emoji'
+
 
 function HomePage() {
     return (
