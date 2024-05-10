@@ -39,16 +39,12 @@
       "id": 4
     },
     {
-      "songName": "Jingle Bells",
-      "id": 5
-    },
-    {
-      "songName": "Chopsticks",
-      "id": 6
-    },
-    {
       "songName": "Survivor - Eye of The Tiger",
       "id": 7
+    },
+    {
+      "songName": "Jingle Bells",
+      "id": 8
     }
   ]
 }
